@@ -79,6 +79,7 @@ Sqrl.defineFilter('reverse', function (str) {
   return out || str
 })
 
+
 Sqrl.defineHelper('ben', function (args, content, blocks, options) {
   return 'The content of gubler: ' + blocks.gubler() + ', the content of pineapple: ' + blocks.pineapple()
 })
